@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "Calamity Responder",
+    "slug": "Fireguard",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "This app requires access to your photo library to upload images.",
+        "NSCameraUsageDescription": "This app requires access to your camera to take photos.",
+        "NSLocationWhenInUseUsageDescription": "This app requires location access to provide location-based alerts.",
+        "UIBackgroundModes": ["fetch", "remote-notification"]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff",
+        "fullscreen": true
+      },
+      "androidStatusBar": {
+        "backgroundColor": "#ff0000",
+        "translucent": true
+      },
+      "package": "com.student.Fireguard",
+      "permissions": [
+        "NOTIFICATIONS",
+        "VIBRATE",
+        "READ_EXTERNAL_STORAGE",
+        "ACCESS_FINE_LOCATION",
+        "RECEIVE_BOOT_COMPLETED", 
+        "com.google.android.c2dm.permission.RECEIVE" 
+      ],
+      "useNextNotificationsApi": true
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "882da812-9d5c-47bf-b82c-e3e80506e0c3"
+      }
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}

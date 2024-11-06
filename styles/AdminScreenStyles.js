@@ -1,0 +1,140 @@
+import { StyleSheet } from "react-native";
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        padding: 15,
+        backgroundColor: '#fff',
+        paddingTop: 40,
+    },
+    title: {
+        fontSize: 24, 
+        fontWeight: 'bold',
+        color: '#000',
+        textAlign: 'center',
+        marginBottom: 20,
+    },
+    inputContainer: {
+        position: 'relative',
+        marginBottom: 15,
+    },
+    input: {
+        height: 50,
+        backgroundColor: '#f9f9f9',
+        borderRadius: 8,
+        paddingHorizontal: 10,
+        borderColor: '#ff0000',
+        borderWidth: 1,
+        marginBottom: 10,
+        fontSize: 16,
+    },
+    textArea: {
+        height: 100,
+        backgroundColor: '#f9f9f9',
+        borderRadius: 8,
+        paddingHorizontal: 10,
+        borderColor: '#ff0000',
+        borderWidth: 1,
+        marginBottom: 10,
+        fontSize: 16,
+    },
+    sendButton: {
+        backgroundColor: '#ff0000',
+        paddingVertical: 15,
+        borderRadius: 8,
+        alignItems: 'center',
+        marginVertical: 10,
+    },
+    sendButtonText: {
+        color: '#fff',
+        fontSize: 18,
+        fontWeight: '600',
+    },
+    buttonRow: {
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginBottom: 20, // Space between button row and other elements
+    },
+    plusButton: {
+        backgroundColor: '#ff0000',
+        borderRadius: 50,
+        padding: 10,
+        justifyContent: 'center',
+        alignItems: 'center',
+        width: 40,
+        height: 40,
+        marginHorizontal: 10,
+        marginBottom: 20,
+    },
+    fireButton: {
+        backgroundColor: '#ff0000',
+        borderRadius: 50,
+        padding: 10,
+        justifyContent: 'center',
+        alignItems: 'center',
+        width: 40,
+        height: 40,
+        marginHorizontal: 10,
+    },
+    imagePickerButton: {
+        backgroundColor: '#f0f0f0',
+        padding: 10,
+        borderRadius: 5,
+        alignItems: 'center',
+        marginBottom: 10,
+    },
+    imagePickerText: {
+        color: '#333',
+        fontSize: 16,
+    },
+    removeButton: {
+        backgroundColor: '#ff0000',
+        paddingVertical: 5,
+        borderRadius: 5,
+        alignItems: 'center',
+        marginBottom: 10,
+    },
+    removeButtonText: {
+        color: '#fff',
+        fontSize: 14,
+    },
+    postContainer: {
+        marginBottom: 20,
+        padding: 10,
+        borderWidth: 1,
+        borderColor: '#ddd',
+        borderRadius: 10,
+        backgroundColor: '#fff',
+        shadowColor: '#000',
+        shadowOffset: {
+            width: 0,
+            height: 1,
+        },
+        shadowOpacity: 0.1,
+        shadowRadius: 2,
+        elevation: 3,
+    },
+    thumbnail: {
+        width: '50%',
+        height: 200,
+        borderRadius: 10,
+        alignSelf: 'center',
+    },
+    postTitle: {
+        fontSize: 20,
+        fontWeight: 'bold',
+        marginTop: 5,
+        alignSelf: 'center',
+    },
+    postDate: {
+        fontSize: 12,
+        color: '#999',
+    },
+    postBody: {
+        fontSize: 14,
+        marginTop: 5,
+    },
+});
+
+export default styles;
